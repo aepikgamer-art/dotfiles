@@ -7,3 +7,8 @@ synced_files = [
     ".config/wofi",
 ]
 packages = []
+
+[[profiles]]
+name = "illogical-impulse"
+synced_files = []
+packages = []

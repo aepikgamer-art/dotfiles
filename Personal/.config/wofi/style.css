@@ -1,10 +1,9 @@
-/*style_1*/
+/*style_11*/
 
 * {
     font-family: "Font Awesome 5 Free", Roboto, Helvetica, Arial, sans-serif;
     font-size: 14px;
     border: none;
-    border-radius: 0;
 }
 
 #window {
@@ -12,25 +11,23 @@
 }
 
 #outer-box {
-    background-color: #282c34; 
-    border-radius: 14px;       
-    border: 1px solid #61afef; 
+    background-color: #504945; 
+    border: 1px solid #d65d0e; 
+    border-radius: 12px;
     margin: 10px;
     padding: 15px;
 }
 
 #input {
-    background-color: #1e222a;     
-    color: #abb2bf;                
+    background-color: #3c3836; 
+    color: #ebdbb2;           
     padding: 8px 12px;
     margin-bottom: 10px;
-    border-radius: 8px;            
-    border: 1px solid transparent; 
-    transition: border-color 0.3s ease;
+    border-radius: 6px;
 }
 
 #input:focus {
-    border-color: #61afef;
+    box-shadow: 0 0 0 1px #d65d0e;
 }
 
 #scroll {
@@ -39,18 +36,17 @@
 
 #entry {
     padding: 8px;
-    border-radius: 8px;
-    color: #abb2bf; 
+    border-radius: 6px;
+    color: #ebdbb2;
     background-color: transparent;
 }
 
 #entry:selected {
-    background-color: #61afef; 
-    font-weight: bold;
+    background-color: #d65d0e; 
 }
 
 #text:selected {
-    color: #282c34;            
+    color: #3c3836;            
 }
 
 #text {
