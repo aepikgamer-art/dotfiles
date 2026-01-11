@@ -1,3 +1,1 @@
-# dotstate-storage
-
-Dotfiles managed by dotstate
+My dotfiles for wofi, waybar, kitty, and hyprland.
