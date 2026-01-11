@@ -1,4 +1,9 @@
 [[profiles]]
 name = "Personal"
-synced_files = []
+synced_files = [
+    ".config/hypr",
+    ".config/kitty",
+    ".config/waybar",
+    ".config/wofi",
+]
 packages = []
